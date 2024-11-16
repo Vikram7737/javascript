@@ -6,7 +6,7 @@ console.log(3
     +
     3);  // code readibility should be high
 
-let name ="hitesh";
+let name ="hitesh"; 
 let age = 15;
 let isLogedIn = false;
 let state = null;

@@ -11,7 +11,7 @@ console.log(valueInNumber); // gives NaN => not a number
 // "33abc" => NaN
 // true = 1;
 
-let isLogedIn="hitesh"
+let isLogedIn="hitesh"  // 
 
 let booleanIsLoggedIn = Boolean(isLoggedIN)
 console.log(booleanIsLoggedIn)
