@@ -1,0 +1,25 @@
+let score = "33";
+
+console.log(typeof score);
+console.log(typeof (score));
+
+let valuInNumber = Number(score);
+console.log(typeof valueInNumber);
+console.log(valueInNumber); // gives NaN => not a number
+
+// "33" => 33
+// "33abc" => NaN
+// true = 1;
+
+let isLogedIn="hitesh"
+
+let booleanIsLoggedIn = Boolean(isLoggedIN)
+console.log(booleanIsLoggedIn)
+
+// 1 => true ; 0 => false
+// " " => false
+// "hitesh" => true;
+
+
+
+ 
