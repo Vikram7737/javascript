@@ -14,7 +14,7 @@ let gender;  // undefined
 
 // number => 2 to power 53
 // bigint 
-// string => ""
+// string => ""  // empty string
 // boolean => true/false
 // null    => standalone value
 // undefined => 
