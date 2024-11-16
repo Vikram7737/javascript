@@ -31,6 +31,10 @@ const myFunction = function(){
     console.log("hello world");
 }
 
+// -----------------------------------------------------
+
+// stack (primitive) , Heap (Non-Primitive)
+
 
 
 
