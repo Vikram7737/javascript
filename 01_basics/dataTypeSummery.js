@@ -35,6 +35,26 @@ const myFunction = function(){
 
 // stack (primitive) , Heap (Non-Primitive)
 
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename  // call by value 
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);  // hiteshchoudharydotcom // due to call by value both value are not same 
+console.log(anothername);   // chaiaurcode
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "hitesh@google.com";
+
+console.log(userOne.email); // user@google.com  // reference milta hai jo bhi changes hote hai bo sb main memory me hote hai
+console.log(userTwo.email); // user@google.com
+
 
 
 
