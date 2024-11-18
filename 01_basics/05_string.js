@@ -37,7 +37,9 @@ console.log(anotheString);
 const newStringOne = "    hitesh    *&(";
 console.log(newStringOne);
 console.log(newStringOne.trim()); // hitesh    *&(  // remove all the spaces in starting and at last
-// visit mdn
+
+// visit mdn for more string functions
+
 
 
 
