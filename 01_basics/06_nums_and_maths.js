@@ -8,7 +8,7 @@ const balance = new Number(100);
 const otherNumber = 1123.8966
 
 // console.log(otherNumber.toPrecision(2));  // round of the value 
-// if number you input is less than the digit less than befor the decimal
+// if number you input is less than the digit less than before the decimal
 // gives output 1.1e+3
 
 

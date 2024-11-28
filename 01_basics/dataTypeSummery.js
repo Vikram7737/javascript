@@ -4,7 +4,7 @@
 
 // 1- primitive // all the primitive data type are call by value
 
-// 7 type  : String , Number , boolean , null , undefined , Symbol => used for making uniqu , BigInt
+// 7 type  : String , Number , boolean , null , undefined , Symbol => used for making unique , BigInt
 
 // const score = 100; // in js ther is no need of define type of data 
 
@@ -12,7 +12,7 @@
 // const anotherId = Symbol('123')  // unique id 
 // console.log(id === anotherId);  // false
 
-const bugNumber =346542136547899654n
+const bigNumber =346542136547899654n
 
 // js is dynamic typed language
 
