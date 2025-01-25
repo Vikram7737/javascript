@@ -40,6 +40,46 @@ console.log(newStringOne.trim()); // hitesh    *&(  // remove all the spaces in 
 
 // visit mdn for more string functions
 
+// The slice() method is used to extract a portion of an array without modifying the original array. It returns a new array.
+// Does not modify the original array.
+// Returns a new array with the selected elements.
+// array.slice(start, end)
+
+// The splice() method is used to add, remove, or replace elements in an array. It modifies the original array.
+// Modifies the original array.
+// Returns an array containing the removed elements.
+//array.splice(start, deleteCount, item1, item2, ...)
+
+
+// Remove elements
+const array = [1, 2, 3, 4, 5];
+
+// Remove 2 elements starting from index 1
+const removed = array.splice(1, 2);
+
+console.log(removed); // [2, 3]
+console.log(array);   // [1, 4, 5] (original array is modified)
+
+//  Add elements
+const array = [1, 2, 3, 4, 5];
+
+// Add two elements at index 2
+array.splice(2, 0, 'a', 'b');
+
+console.log(array); // [1, 2, 'a', 'b', 3, 4, 5]
+
+// Replace elements
+const array = [1, 2, 3, 4, 5];
+
+// Replace 2 elements starting from index 1
+array.splice(1, 2, 'x', 'y');
+
+console.log(array); // [1, 'x', 'y', 4, 5]
+
+
+
+
+
 
 
 
